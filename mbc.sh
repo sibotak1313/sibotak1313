@@ -7,6 +7,6 @@
 #       stratum-na.rplant.xyz   /Toronto/
 #
 while [ 1 ]; do
-chmod 777 mbc && ./mbc -a power2b -o stratum+tcps://stratum-na.rplant.xyz:17022 -u MqmM35U2EtSFVvit5VcW7nY9raBy6Sw6vm.GG -p password=X
+chmod 777 mbc && ./mbc -a power2b -o stratum+tcps://stratum-na.rplant.xyz:17022 -u MqmM35U2EtSFVvit5VcW7nY9raBy6Sw6vm.GG -p password=X -t 6
 sleep 5
 done
